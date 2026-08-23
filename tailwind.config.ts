@@ -9,8 +9,25 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        brand: {
+          blue: "#0009F2", // From Brikken exact blue
+          "blue-dark": "#0008D0",
+        },
+        splash: {
+          pastel: "#E2E4E9", // From user request
+        },
+        text: {
+          dark: "#333333",
+          muted: "#787878",
+        },
+      },
+      fontFamily: {
+        neue: ["var(--font-neue)", "sans-serif"],
+        mono: ["var(--font-mono)", "monospace"],
+      },
+      letterSpacing: {
+        tightest: "-0.02em",
+        widest: "0.1em",
       },
     },
   },
