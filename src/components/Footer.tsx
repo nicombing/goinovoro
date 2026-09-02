@@ -11,17 +11,16 @@ export default function Footer() {
           <div className="flex flex-col gap-8 max-w-[586px]">
             <div className="flex flex-col gap-6">
               <h2 className="font-neue font-medium text-[36px] md:text-[52px] lg:text-[68px] leading-[1.1] tracking-tightest whitespace-pre-wrap">
-                Have something worth shaping?{"\n"}Let&apos;s build it properly.
+                Siap transformasi digital bisnis Anda?
               </h2>
               <p className="font-neue font-medium text-[18px] lg:text-[24px] leading-[1.3] max-w-[614px]">
-                Submit your primary operational bottleneck and let our engineering
-                team scope a custom solution.
+                Konsultasi gratis untuk mengetahui solusi IT terbaik untuk bisnis Anda. Tim expert kami siap membantu.
               </p>
             </div>
             <div className="flex gap-4">
-              <button className="inline-flex items-center justify-center px-[19px] py-[14px] flex-1 lg:flex-none lg:w-[220px] bg-black text-white rounded-[5px] font-mono text-[14px] tracking-widest hover:bg-[#333] transition-colors text-center">
-                Deploy Engineering Audit
-              </button>
+              <a href="https://wa.me/6285179530711?text=Halo%20GoInovoro,%20saya%20ingin%20konsultasi%20tentang%20layanan%20IT%20untuk%20bisnis%20saya." target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-[19px] py-[14px] flex-1 lg:flex-none lg:w-[220px] bg-black text-white rounded-[5px] font-mono text-[14px] tracking-widest hover:bg-[#333] transition-colors text-center uppercase">
+                Konsultasi via WhatsApp
+              </a>
             </div>
           </div>
         </div>
@@ -40,7 +39,7 @@ export default function Footer() {
       <div className="w-full max-w-7xl mx-auto px-4 lg:px-10 pb-8">
         <div className="border-t border-black/15 flex flex-col md:flex-row items-center justify-between py-6 gap-4">
           <span className="font-mono text-[11px] lg:text-[14px] tracking-widest">
-            ©Goinovoro | Company Number SC861008
+            © 2026 GoInovoro. Inovasi untuk Solusi Teknologi Anda.
           </span>
           <nav aria-label="Social media">
             <ul className="flex gap-6 items-center">

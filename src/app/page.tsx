@@ -88,11 +88,11 @@ export default function Home() {
           transition={{ duration: 0.8, delay: 1.8, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
           <p className="font-neue font-medium leading-[1.3] text-black text-[18px] md:text-[22px]">
-            {"///"} THE ENGINEERS OF AUTOMATION SYSTEMS
+            {"///"} STUDIO DIGITAL DARI BANDUNG
             <br /><br />
-            You didn&apos;t start a business to become a manual data entry clerk.
+            &quot;Inovasi adalah bagian utama garda terdepan usaha kami&quot;
             <br /><br />
-            We replace fragmented messaging, manual spreadsheets, and operational friction with clean, automated digital workflows that run seamlessly in the background.
+            Menyediakan solusi teknologi terdepan untuk mengoptimalkan bisnis Anda melalui otomatisasi, pengembangan sistem, dan pendampingan IT profesional.
           </p>
           <button 
             onClick={() => setShowreelOpen(true)}
@@ -113,7 +113,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="font-mono text-[12px] lg:text-[18px] tracking-widest uppercase"
             >
-              OPERATIONAL ARCHITECTURE
+              MENGAPA MEMILIH KAMI
             </motion.h2>
           </div>
           <div className="flex flex-col gap-10 max-w-[850px]">
@@ -124,7 +124,7 @@ export default function Home() {
               transition={{ duration: 0.8 }}
               className="font-neue font-medium text-[28px] md:text-[44px] lg:text-[68px] leading-[1.1] tracking-tightest"
             >
-              Most businesses don&apos;t have a growth problem. They have a system problem.
+              Komitmen kami adalah menghadirkan eksekusi yang rapi, komunikasi yang jelas, dan hasil yang terasa lebih premium.
             </motion.h3>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-16">
               <motion.p
@@ -134,7 +134,7 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.1 }}
                 className="font-neue font-medium text-[18px] lg:text-[24px] leading-[1.5] flex-1"
               >
-                When order volume scales, manual processes break down. WhatsApp chats get buried, client files get misplaced, and human error eats away at your margins.
+                Didukung oleh tim yang paham proses, detail teknis, dan ekspektasi bisnis nyata. Setiap deliverable melewati standar kualitas yang jelas, aman, dan mudah dirawat.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 30 }}
@@ -143,7 +143,7 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="font-neue font-medium text-[18px] lg:text-[24px] leading-[1.5] flex-1"
               >
-                At Goinovoro, we don&apos;t just write code—we engineer custom automation systems. We build the digital infrastructure that lets your team step away from repetitive busywork.
+                Timeline, scope, dan output dibuat transparan agar eksekusi tetap cepat dan rapi. Konsultasi gratis untuk mengetahui solusi IT terbaik untuk bisnis Anda.
               </motion.p>
             </div>
           </div>
@@ -160,7 +160,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="font-neue font-medium text-[80px] md:text-[160px] xl:text-[278px] leading-[1] tracking-[-0.005em] whitespace-nowrap overflow-hidden"
           >
-            Our Work
+            Portofolio Kami
           </motion.h2>
           <div className="mt-5 grid grid-cols-2 gap-x-8 lg:gap-x-16 gap-y-16 lg:gap-y-20 pb-[100px] lg:pb-[320px]">
             {/* Project 1 */}
@@ -175,8 +175,8 @@ export default function Home() {
                  {/* <video poster="/work/img_flit.jpg" className="w-full object-cover h-full" /> */}
               </div>
               <div className="flex flex-col gap-3 max-w-[631px]">
-                <h3 className="font-neue font-medium text-[24px] lg:text-[32px] leading-[1.1] tracking-tightest">Retail Logistics</h3>
-                <p className="font-neue font-medium text-[16px] lg:text-[20px] leading-[1.3] tracking-tightest">An end-to-end automation pipeline tracking hundreds of daily orders from Shopify directly into the fulfillment warehouse completely hands-free.</p>
+                <h3 className="font-neue font-medium text-[24px] lg:text-[32px] leading-[1.1] tracking-tightest">Logistik Retail</h3>
+                <p className="font-neue font-medium text-[16px] lg:text-[20px] leading-[1.3] tracking-tightest">Sistem otomasi end-to-end untuk melacak ratusan pesanan harian dari e-commerce langsung ke gudang pemenuhan secara otomatis.</p>
               </div>
             </motion.article>
 
@@ -192,8 +192,8 @@ export default function Home() {
                 {/* <video poster="/work/img_kitti.jpg" className="w-full object-cover h-full" /> */}
               </div>
               <div className="flex flex-col gap-3 max-w-[631px]">
-                <h3 className="font-neue font-medium text-[24px] lg:text-[32px] leading-[1.1] tracking-tightest">Customer Sync</h3>
-                <p className="font-neue font-medium text-[16px] lg:text-[20px] leading-[1.3] tracking-tightest">We connected the client&apos;s disjointed CRM so that every new lead automatically generated an invoice, sent an email, and notified the sales team on Slack.</p>
+                <h3 className="font-neue font-medium text-[24px] lg:text-[32px] leading-[1.1] tracking-tightest">Sinkronisasi Pelanggan</h3>
+                <p className="font-neue font-medium text-[16px] lg:text-[20px] leading-[1.3] tracking-tightest">Kami mengintegrasikan CRM klien sehingga setiap prospek baru otomatis membuat tagihan, mengirim email, dan memberi notifikasi ke tim sales.</p>
               </div>
             </motion.article>
           </div>
@@ -252,8 +252,8 @@ export default function Home() {
               <video src="/services/services_bg.mp4" autoPlay loop muted playsInline className="w-full h-full object-cover" />
             </div>
             <div className="flex flex-col gap-3">
-              <h3 className="font-neue font-medium text-[32px] leading-[1.2] tracking-tightest text-white">The Speed Protocol</h3>
-              <p className="font-neue text-[20px] leading-[1.5] text-white/60">We streamline your current tools into a single, cohesive dashboard.</p>
+              <h3 className="font-neue font-medium text-[32px] leading-[1.2] tracking-tightest text-white">Speed Web Automation</h3>
+              <p className="font-neue text-[20px] leading-[1.5] text-white/60">Automasi proses web yang menghemat waktu, mengurangi kesalahan, dan langsung terasa dampaknya untuk operasional harian.</p>
             </div>
           </motion.div>
 
@@ -266,8 +266,8 @@ export default function Home() {
               <video src="/services/services_bg.mp4" autoPlay loop muted playsInline className="w-full h-full object-cover" />
             </div>
             <div className="flex flex-col gap-3">
-              <h3 className="font-neue font-medium text-[32px] leading-[1.2] tracking-tightest text-white">Float Integration Engine</h3>
-              <p className="font-neue text-[20px] leading-[1.5] text-white/60">We connect your disjointed apps through custom APIs so data flows automatically.</p>
+              <h3 className="font-neue font-medium text-[32px] leading-[1.2] tracking-tightest text-white">Float System Development</h3>
+              <p className="font-neue text-[20px] leading-[1.5] text-white/60">Aplikasi dan sistem yang dibangun rapi, skalabel, dan dirancang untuk kebutuhan bisnis yang terus bertumbuh.</p>
             </div>
           </motion.div>
 
@@ -280,8 +280,8 @@ export default function Home() {
               <video src="/services/services_bg.mp4" autoPlay loop muted playsInline className="w-full h-full object-cover" />
             </div>
             <div className="flex flex-col gap-3">
-              <h3 className="font-neue font-medium text-[32px] leading-[1.2] tracking-tightest text-white">Fly Enterprise Framework</h3>
-              <p className="font-neue text-[20px] leading-[1.5] text-white/60">Full-scale operational architecture designed to replace entire departments of manual work.</p>
+              <h3 className="font-neue font-medium text-[32px] leading-[1.2] tracking-tightest text-white">Fly IT Tutor</h3>
+              <p className="font-neue text-[20px] leading-[1.5] text-white/60">Pendampingan teknis dan transfer pengetahuan agar tim Anda lebih mandiri memakai teknologi yang tepat.</p>
             </div>
           </motion.div>
 
@@ -291,7 +291,7 @@ export default function Home() {
             className="absolute inset-0 flex items-center justify-center px-[8%] z-20 pointer-events-none"
           >
             <p className="font-neue font-medium text-[34px] lg:text-[54px] leading-[1.2] tracking-tightest max-w-[820px] text-white">
-              Our approach means that every part of your project moves in the same direction. The result is work that feels more coherent, more useful and easier to take to market.
+              GoInovoro membangun sistem, automasi, dan pengalaman digital yang rapi, cepat, dan siap dipakai untuk kebutuhan bisnis nyata.
             </p>
           </motion.div>
         </div>
