@@ -63,11 +63,11 @@ export default function Home() {
         </motion.div>
 
         <motion.div 
-          className="absolute inset-0 flex items-center justify-center pointer-events-none"
+          className="absolute inset-0 flex items-center justify-center lg:justify-end lg:pr-[10%] pointer-events-none"
           style={{ y: heroY }}
         >
           <motion.div
-            className="w-[80vw] max-w-[600px] opacity-90"
+            className="w-[80vw] max-w-[500px] opacity-90"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, delay: 1.5, ease: [0.16, 1, 0.3, 1] }}
