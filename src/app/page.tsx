@@ -220,19 +220,19 @@ export default function Home() {
                 style={{ color: massiveColor1 }}
                 className="font-druk font-black uppercase text-[40px] md:text-[60px] lg:text-[100px] xl:text-[140px]"
               >
-                THE SPEED PROTOCOL
+                SPEED
               </motion.span>
               <motion.span 
                 style={{ color: massiveColor2 }}
                 className="font-druk font-black uppercase text-[40px] md:text-[60px] lg:text-[100px] xl:text-[140px]"
               >
-                FLOAT INTEGRATION
+                FLOAT
               </motion.span>
               <motion.span 
                 style={{ color: massiveColor3 }}
                 className="font-druk font-black uppercase text-[40px] md:text-[60px] lg:text-[100px] xl:text-[140px]"
               >
-                FLY ENTERPRISE
+                FLY
               </motion.span>
             </div>
             <motion.div 
