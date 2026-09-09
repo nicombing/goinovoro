@@ -14,27 +14,27 @@ export default function Navbar() {
         
         {/* Left Links */}
         <div className="flex items-center gap-6 md:gap-8">
-          <a href="#about" className="font-mono text-[10px] md:text-[11px] text-text-dark uppercase tracking-widest hover:opacity-60 transition-opacity">
+          <a href="/about" className="font-mono text-[10px] md:text-[11px] text-text-dark uppercase tracking-widest hover:opacity-60 transition-opacity">
             About
           </a>
-          <a href="#work" className="font-mono text-[10px] md:text-[11px] text-text-dark uppercase tracking-widest hover:opacity-60 transition-opacity">
+          <a href="/#work" className="font-mono text-[10px] md:text-[11px] text-text-dark uppercase tracking-widest hover:opacity-60 transition-opacity">
             Work
           </a>
         </div>
 
         {/* Center Logo */}
         <div className="flex-shrink-0 absolute left-1/2 -translate-x-1/2 cursor-pointer">
-          <span className="font-neue font-medium text-[16px] md:text-[20px] tracking-tight text-black">
+          <a href="/" className="font-neue font-medium text-[16px] md:text-[20px] tracking-tight text-black">
             Goinovoro™
-          </span>
+          </a>
         </div>
 
         {/* Right Links */}
         <div className="flex items-center gap-6 md:gap-8">
-          <a href="#services" className="font-mono text-[10px] md:text-[11px] text-text-dark uppercase tracking-widest hover:opacity-60 transition-opacity">
+          <a href="/services" className="font-mono text-[10px] md:text-[11px] text-text-dark uppercase tracking-widest hover:opacity-60 transition-opacity">
             Services
           </a>
-          <a href="#contact" className="font-mono text-[10px] md:text-[11px] text-text-dark uppercase tracking-widest hover:opacity-60 transition-opacity">
+          <a href="/contact" className="font-mono text-[10px] md:text-[11px] text-text-dark uppercase tracking-widest hover:opacity-60 transition-opacity">
             Contact
           </a>
         </div>
