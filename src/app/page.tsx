@@ -67,7 +67,7 @@ export default function Home() {
           style={{ y: heroY }}
         >
           <motion.div
-            className="w-[80vw] max-w-[500px] opacity-90"
+            className="w-[80vw] max-w-[500px]"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, delay: 1.5, ease: [0.16, 1, 0.3, 1] }}
@@ -75,7 +75,8 @@ export default function Home() {
             <motion.img
               src="/logoonly.png"
               alt=""
-              className="w-full h-auto object-contain"
+              className="w-full h-auto object-contain drop-shadow-2xl"
+              style={{ imageRendering: "-webkit-optimize-contrast" }}
               animate={{ y: [0, -20, 0] }}
               transition={{ duration: 5, ease: "easeInOut", repeat: Infinity }}
             />
